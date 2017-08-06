@@ -1,0 +1,12 @@
+package structual.proxy;
+
+/**
+ * Created by Denis Starovoitenko on 06.08.2017.
+ */
+public class Main {
+    public static void main(String[] args) {
+        Project project = new Proxy("http://www.github.com/realProject");
+
+        project.run();
+    }
+}
